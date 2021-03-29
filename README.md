@@ -1,4 +1,4 @@
-> [Work In Progress]
+> These docs are a Work-In-Progress, and are entirely created by the BitClout community.
 
 # BitClout API
 
