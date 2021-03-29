@@ -54,7 +54,7 @@
         "AffectedPublicKeys": [
           {
             "PublicKeyBase58Check": String,
-            <a href="https://github.com/HPaulson/BitClout-API-Docs/#affectedpublickey-metadata">"Metadata"</a>: PublicKeyType,
+            "Metadata": <a href="https://github.com/HPaulson/BitClout-API-Docs/#affectedpublickey-metadata">PublicKeyType</a>,
           }
         ],
         <a href="https://github.com/HPaulson/BitClout-API-Docs/#basictransfertxindexmetadata">"BasicTransferTxindexMetadata"</a>: {
