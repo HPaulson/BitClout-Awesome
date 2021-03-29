@@ -25,7 +25,7 @@
 
 
 #### Response 
-```
+```js
 {
   "Error": String,
   "Transactions": [
@@ -101,6 +101,7 @@
   ],
   "BalanceNanos": Integer
 }
+```
 ---
 
 ## Types
