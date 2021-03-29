@@ -25,7 +25,7 @@
 
 
 #### Response 
-```json
+```
 {
   "Error": String,
   "Transactions": [
