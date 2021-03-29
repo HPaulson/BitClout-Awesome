@@ -117,6 +117,7 @@
 | "CREATOR_COIN"       | Purchase (Or sell) a creator coin |
 | "SUBMIT_POST"       | Create (Or hide) post  |
 | "LIKE"       | Like (Or unlike) post |
+| "BLOCK_REWARD" | Reward for mining a block |
 
 ## AffectedPublicKey Metadata
 | Type  | Description                               |
