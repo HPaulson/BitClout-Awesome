@@ -25,52 +25,54 @@
 
 
 #### Response 
-```js
+<pre>
 {
   "Error": String,
-  "Transactions": [
+  <a href="https://github.com/HPaulson/BitClout-API-Docs/#transaction">"Transactions"</a>: [
     {
       "TransactionIDBase58Check": String,
       "RawTransactionHex": String,
-      "Inputs": [
+      <a href="https://github.com/HPaulson/BitClout-API-Docs/#input">"Inputs"</a>: [
         {
           "TransactionIDBase58Check": String,
           "Index": Integer
         }
       ]
-     "Outputs": [
+     <a href="https://github.com/HPaulson/BitClout-API-Docs/#output">"Outputs"</a>: [
         {
           "PublicKeyBase58Check": String,
           "AmountNanos": Integer
      ]
      "SignatureHex": String,
-     "TransactionType": TransactionType
+     "TransactionType": <a href="https://github.com/HPaulson/BitClout-API-Docs/#txntype">TransactionType</a>
      "BlockHashHex": String,
-     "TransactionMetadata": {
+     <a href="https://github.com/HPaulson/BitClout-API-Docs/#output">"TransactionMetadata"</a>: {
         "BlockHashHex": String,
         "TxnIndexInBlock": String,
-        "TxnType": TransactionType,
+        "TxnType": <a href="https://github.com/HPaulson/BitClout-API-Docs/#txntype">TransactionType</a>,
         "TransactorPublicKeyBase58Check": String,
         "AffectedPublicKeys": [
           {
             "PublicKeyBase58Check": String,
-            "Metadata": PublicKeyType,
+            <a href="https://github.com/HPaulson/BitClout-API-Docs/#affectedpublickey-metadata">"Metadata"</a>: PublicKeyType,
           }
         ],
-        "BasicTransferTxindexMetadata": {
+        <a href="https://github.com/HPaulson/BitClout-API-Docs/#basictransfertxindexmetadata">"BasicTransferTxindexMetadata"</a>: {
           "TotalInputNanos": Integer,
           "TotalOutputNanos" Integer,
           "FeeNanos": Integer,
           "UtxoOpsDump": String
         },
-        "BitcoinExchangeTxindexMetadata": Unknown | Null,
-        "CreatorCoinTxindexMetadata": {
+        <a href="https://github.com/HPaulson/BitClout-API-Docs/#bitcoinexchangetxindexmetadata">"BitcoinExchangeTxindexMetadata"</a>: {
+          < UNKNOWN >
+        },
+        <a href="https://github.com/HPaulson/BitClout-API-Docs/#creatorcointxindexmetadata">"CreatorCoinTxindexMetadata"</a>: {
           "OperationType": "buy" | "sell",
           "BitCloutToSellNanos": Integer,
           "CreatorCoinToSellNanos": Integer,
           "BitCloutToAddNanos": Integer
          },
-        "UpdateProfileTxindexMetadata": {
+        <a href="https://github.com/HPaulson/BitClout-API-Docs/#updateprofiletxindexmetadata">"UpdateProfileTxindexMetadata"</a>: {
           "ProfilePublicKeyBase58Check": String,
           "NewUsername": String,
           "NewDescription": String,
@@ -79,20 +81,20 @@
           "NewStakeMultipleBasisPoints": Integer,
           "IsHidden": Boolean
         },
-        "SubmitPostTxindexMetadata": {
+        <a href="https://github.com/HPaulson/BitClout-API-Docs/#submitposttxindexmetadata">"SubmitPostTxindexMetadata"</a>: {
           "PostHashBeingModifiedHex": String,
           "ParentPostHashHex": String,
-          "LikeTxindexMetadata": {
+          <a href="https://github.com/HPaulson/BitClout-API-Docs/#liketxindexmetadata">"LikeTxindexMetadata"</a>: {
             "IsUnlike": Boolean,
             "PostHashHex": String
           },
-          "FollowTxindexMetadata": {
+          <a href="https://github.com/HPaulson/BitClout-API-Docs/#followtxindexmetadata">"FollowTxindexMetadata"</a>: {
             "IsUnfollow": Boolean
           },
-          "PrivateMessageTxindexMetadata": {
+          <a href="https://github.com/HPaulson/BitClout-API-Docs/#privatemessagetxindexmetadata">"PrivateMessageTxindexMetadata"</a>: {
             < UNKNOWN TYPES >
           },
-          "SwapIdentityTxindexMetadata": {
+          <a href="https://github.com/HPaulson/BitClout-API-Docs/#swapidentitytxindexmetadata">"SwapIdentityTxindexMetadata"</a>: {
             < UNKNOWN TYPES >
           }
         }
@@ -101,7 +103,7 @@
   ],
   "BalanceNanos": Integer
 }
-```
+</pre>
 ---
 
 ## Types
