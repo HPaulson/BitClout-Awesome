@@ -64,7 +64,12 @@
           "UtxoOpsDump": String
         },
         <a href="https://github.com/HPaulson/BitClout-API-Docs/#bitcoinexchangetxindexmetadata">"BitcoinExchangeTxindexMetadata"</a>: {
-          < UNKNOWN >
+          "BitcoinSpendAddress": String,
+          "SatoshisBurned": Integer,
+          "NanosCreated": Integer,
+          "TotalNanosPurchasedBefore": Long,
+          "TotalNanosPurchasedAfter": Long,
+          "BitcoinTxnHash": String
         },
         <a href="https://github.com/HPaulson/BitClout-API-Docs/#creatorcointxindexmetadata">"CreatorCoinTxindexMetadata"</a>: {
           "OperationType": "buy" | "sell",
@@ -92,7 +97,7 @@
             "IsUnfollow": Boolean
           },
           <a href="https://github.com/HPaulson/BitClout-API-Docs/#privatemessagetxindexmetadata">"PrivateMessageTxindexMetadata"</a>: {
-            < UNKNOWN TYPES >
+            "TimestampNanos": Long
           },
           <a href="https://github.com/HPaulson/BitClout-API-Docs/#swapidentitytxindexmetadata">"SwapIdentityTxindexMetadata"</a>: {
             < UNKNOWN TYPES >
@@ -118,6 +123,8 @@
 | "SUBMIT_POST"       | Create (Or hide) post  |
 | "LIKE"       | Like (Or unlike) post |
 | "BLOCK_REWARD" | Reward for mining a block |
+| "BITCOIN_EXCHANGE" | For Purchases of $BitClout using $BTC | 
+| "PRIVATE_MESSAGE" | Private message between accounts | 
 
 ## AffectedPublicKey Metadata
 | Type  | Description                               |
@@ -177,7 +184,12 @@
 ## BitcoinExchangeTxindexMetadata
 | Type  | Description                               |
 |-----------|-------------------------------------|
-| "< UNKNOWN TYPES >"       | < UNKNOWN > |
+| "BitcoinSpendAddress" | Public key address of incoming satoshis|
+| "SatoshisBurned" | $BTC spent on $BitClout|
+| "NanosCreated" | < UNKNOWN >|
+| "TotalNanosPurchasedBefore" | < UNKNOWN >|
+| "TotalNanosPurchasedAfter" | < UNKNOWN >|
+| "BitcoinTxnHash" | Tx Hash of $BTC transaction|
 
 ## CreatorCoinTxindexMetadata
 | Type  | Description                               |
@@ -218,7 +230,7 @@
 ## PrivateMessageTxindexMetadata
 | Type  | Description                               |
 |-----------|-------------------------------------|
-| "< UNKNOWN TYPES >"       | < UNKNOWN > |
+| "TimestampNanos"       | < UNKNOWN > |
 
 ## SwapIdentityTxindexMetadata
 | Type  | Description                               |
