@@ -15,7 +15,7 @@
 - Using a proxy will be the most effective solution to API restrictions. I recommend using a [Cloudflare Workers Bypass](https://github.com/jychp/cloudflare-bypass) to accomplish such. It will allow you to bypass Cloudflare, and not worry about cors. Another applicable solution will be to use a browser proxy. Such a proxy would rely on a headless browser to load BitClout.com, and then execute js fetch on the page with your request.
 
 ## Notes
-- All of the documentation in this repository is for the BitClout.com Node API, however, such documentation applies to all other nodes using their API. Upon nodes becoming open source, this documentation will also apply to all private and public nodes which run an instance of the public API.
+- All of the documentation in this repository is for the BitClout.com Node API, however, upon nodes becoming open source, this documentation will also apply to all private and public nodes which run an instance of such API.
 - These docs are created by engineers in the community, for engineers in the community. If you build something cool with their help, please add them to the projects tab!
 - Not all nodes run the full API. For example, the Blue node does not run the Explorer API endpoints. We recommend using the main BitClout.com API for full coverage.
 - These docs are put into a folder by task. For example, the Explorer folder includes documentation for both the `get-transactions` and `block` endpoint, as both are used to get chain data on the explorer.
