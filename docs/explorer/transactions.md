@@ -114,11 +114,11 @@
 ## AffectedPublicKey Metadata
 | Type  | Description                               |
 |-----------|-------------------------------------|
-| "BasicTransferOutput"       | Public key of user who engaged in an action       |
+| "BasicTransferOutput"       | Public key of the user who engaged in an action       |
 | "ProfilePublicKeyBase58Check"    | ???            |
-| "FollowedPublicKeyBase58Check"       | Public key of the user who recived a follow (Or unfollow) |
-| "CreatorPublicKey"       | Public key of creator who's coin was purchased (Or sold) |
-| "PosterPublicKeyBase58Check"       | Public key the a liked post author  |
+| "FollowedPublicKeyBase58Check"       | Public key of the user who received a follow (Or unfollow) |
+| "CreatorPublicKey"       | Public key of the creator whose coin was purchased (Or sold) |
+| "PosterPublicKeyBase58Check"       | Public key of the liked posts author  |
 
 ## Transaction
 | Type  | Description                               |
