@@ -1,25 +1,10 @@
-> These docs are a Work-In-Progress, and are entirely created by the BitClout community.
-
-# BitClout API
-
-## Reference 
-- The BitClout API has multiple base URL's available for use. They are:
-  - https://api.bitclout.blue/api/v1
-  - https://api.bitclout.green/api/v1
-  - https://api.bitclout.com/api/v1
-    > Note: This base url is protected by cloudflare, and will be unusable for most endpoints.
-    
-- These Base URL's do not work for all endpoints. You should use the base specified in the endpoint documentation.
-  
-## Endpoints
-
-## Getting Transactions
+## Getting Transactions on the chain
 
 #### Request
 \* = Requiered
 | Property  | Value                               |
 |-----------|-------------------------------------|
-| *Endpoint       | `https://api.bitclout.green/api/v1/transaction-info`       |
+| *Endpoint       | `https://api.bitclout.com/api/v1/transaction-info`       |
 | *Headers    | `content-type: application/json`            |
 | *Body       | `{"PublicKeyBase58Check":"<PUBLIC_KEY>"}`
 
