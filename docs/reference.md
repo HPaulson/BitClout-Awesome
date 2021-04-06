@@ -20,7 +20,3 @@
 - Not all nodes run the full API. For example, the Blue node does not run the Explorer API endpoints. We recommend using the main BitClout.com API for full coverage.
 - These docs are put into a folder by task. For example, the Explorer folder includes documentation for both the `get-transactions` and `block` endpoint, as both are used to get chain data on the explorer.
 
-## Contributors
-- Listed below are all contributors who have assisted in the creation of these docs:
-  - Hunter Paulson <HPaulson@SeismicCore.com>
-  - Joe Rawlings <http://www.joerawlings.com>
