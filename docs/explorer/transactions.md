@@ -4,10 +4,10 @@
 \* = Requiered
 | Property  | Value                               |
 |-----------|-------------------------------------|
-| *Endpoint       | `https://api.bitclout.com/api/v1/transaction-info`       |
+| *Endpoint       | POST `https://api.bitclout.com/api/v1/transaction-info`       |
 | *Headers    | `content-type: application/json`            |
-| *Body       | `{"PublicKeyBase58Check":"<PUBLIC_KEY>"}`
-
+| *Body       | `{"PublicKeyBase58Check"?:"<PUBLIC_KEY>", "IsMempool"?: Boolean}`
+> If you'd like to search only for mempool transactions, include `IsMempool`. Requesting `IsMempool: true` with no `PublicKeyBase58Check` will return the entire mempool.
 
 #### Response 
 <pre>
