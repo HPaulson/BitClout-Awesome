@@ -5,10 +5,10 @@ This repo consists of tools and documentation of the BitClout.com node API which
 ## Tree of Contents
 - [Projects List](/projects.md)
 - [Docs](/docs)
-  - [Reference](/reference.md)
-  - [Explorer](/explorer)
-    - [Transactions](/transactions.md)  
-    - [Current Block](/current-block.md)
+  - [Reference](/docs/reference.md)
+  - [Explorer](/docs/explorer)
+    - [Transactions](/docs/explorer/transactions.md)  
+    - [Current Block](/docs/explorer/current-block.md)
 
 
 ## Contributors
