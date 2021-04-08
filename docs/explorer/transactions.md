@@ -13,42 +13,42 @@
 <pre>
 {
   "Error": String,
-  <a href="https://github.com/HPaulson/BitClout-API-Docs/#transaction">"Transactions"</a>: [
+  <a href="#transaction">"Transactions"</a>: [
     {
       "TransactionIDBase58Check": String,
       "RawTransactionHex": String,
-      <a href="https://github.com/HPaulson/BitClout-API-Docs/#input">"Inputs"</a>: [
+      <a href="#input">"Inputs"</a>: [
         {
           "TransactionIDBase58Check": String,
           "Index": Integer
         }
       ]
-     <a href="https://github.com/HPaulson/BitClout-API-Docs/#output">"Outputs"</a>: [
+     <a href="#output">"Outputs"</a>: [
         {
           "PublicKeyBase58Check": String,
           "AmountNanos": Integer
      ]
      "SignatureHex": String,
-     "TransactionType": <a href="https://github.com/HPaulson/BitClout-API-Docs/#txntype">TransactionType</a>
+     "TransactionType": <a href="#txntype">TransactionType</a>
      "BlockHashHex": String,
-     <a href="https://github.com/HPaulson/BitClout-API-Docs/#output">"TransactionMetadata"</a>: {
+     <a href="#output">"TransactionMetadata"</a>: {
         "BlockHashHex": String,
         "TxnIndexInBlock": String,
-        "TxnType": <a href="https://github.com/HPaulson/BitClout-API-Docs/#txntype">TransactionType</a>,
+        "TxnType": <a href="#txntype">TransactionType</a>,
         "TransactorPublicKeyBase58Check": String,
         "AffectedPublicKeys": [
           {
             "PublicKeyBase58Check": String,
-            "Metadata": <a href="https://github.com/HPaulson/BitClout-API-Docs/#affectedpublickey-metadata">PublicKeyType</a>,
+            "Metadata": <a href="#affectedpublickey-metadata">PublicKeyType</a>,
           }
         ],
-        <a href="https://github.com/HPaulson/BitClout-API-Docs/#basictransfertxindexmetadata">"BasicTransferTxindexMetadata"</a>: {
+        <a href="#basictransfertxindexmetadata">"BasicTransferTxindexMetadata"</a>: {
           "TotalInputNanos": Integer,
           "TotalOutputNanos" Integer,
           "FeeNanos": Integer,
           "UtxoOpsDump": String
         },
-        <a href="https://github.com/HPaulson/BitClout-API-Docs/#bitcoinexchangetxindexmetadata">"BitcoinExchangeTxindexMetadata"</a>: {
+        <a href="#bitcoinexchangetxindexmetadata">"BitcoinExchangeTxindexMetadata"</a>: {
           "BitcoinSpendAddress": String,
           "SatoshisBurned": Integer,
           "NanosCreated": Integer,
@@ -56,13 +56,13 @@
           "TotalNanosPurchasedAfter": Long,
           "BitcoinTxnHash": String
         },
-        <a href="https://github.com/HPaulson/BitClout-API-Docs/#creatorcointxindexmetadata">"CreatorCoinTxindexMetadata"</a>: {
+        <a href="#creatorcointxindexmetadata">"CreatorCoinTxindexMetadata"</a>: {
           "OperationType": "buy" | "sell",
           "BitCloutToSellNanos": Integer,
           "CreatorCoinToSellNanos": Integer,
           "BitCloutToAddNanos": Integer
          },
-        <a href="https://github.com/HPaulson/BitClout-API-Docs/#updateprofiletxindexmetadata">"UpdateProfileTxindexMetadata"</a>: {
+        <a href="#updateprofiletxindexmetadata">"UpdateProfileTxindexMetadata"</a>: {
           "ProfilePublicKeyBase58Check": String,
           "NewUsername": String,
           "NewDescription": String,
@@ -71,20 +71,20 @@
           "NewStakeMultipleBasisPoints": Integer,
           "IsHidden": Boolean
         },
-        <a href="https://github.com/HPaulson/BitClout-API-Docs/#submitposttxindexmetadata">"SubmitPostTxindexMetadata"</a>: {
+        <a href="#submitposttxindexmetadata">"SubmitPostTxindexMetadata"</a>: {
           "PostHashBeingModifiedHex": String,
           "ParentPostHashHex": String,
-          <a href="https://github.com/HPaulson/BitClout-API-Docs/#liketxindexmetadata">"LikeTxindexMetadata"</a>: {
+          <a href="#liketxindexmetadata">"LikeTxindexMetadata"</a>: {
             "IsUnlike": Boolean,
             "PostHashHex": String
           },
-          <a href="https://github.com/HPaulson/BitClout-API-Docs/#followtxindexmetadata">"FollowTxindexMetadata"</a>: {
+          <a href="#followtxindexmetadata">"FollowTxindexMetadata"</a>: {
             "IsUnfollow": Boolean
           },
-          <a href="https://github.com/HPaulson/BitClout-API-Docs/#privatemessagetxindexmetadata">"PrivateMessageTxindexMetadata"</a>: {
+          <a href="#privatemessagetxindexmetadata">"PrivateMessageTxindexMetadata"</a>: {
             "TimestampNanos": Long
           },
-          <a href="https://github.com/HPaulson/BitClout-API-Docs/#swapidentitytxindexmetadata">"SwapIdentityTxindexMetadata"</a>: {
+          <a href="#swapidentitytxindexmetadata">"SwapIdentityTxindexMetadata"</a>: {
             < UNKNOWN TYPES >
           }
         }
