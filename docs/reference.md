@@ -14,7 +14,7 @@
 ## Solutions
 - Using an API solution will be required to bypass API restrictions- you may not hit the API directly without such. To accomplish such, you may use an [Existing Public Proxy](https://www.bitcloutapi.net/), or other bypass tools such as [@Nichomacheus's Base Client](https://github.com/nichomacheus/bitclout). You should note, however, that neither of these solutions are perfect. Proxies are generally very slow, and command-line tools most likely don't fit your exact needs. For these reasons, I'd personally recommend not using such solutions in production applications. If you're building something for production use, either wait until nodes are publically available, or build a solution that specifically meets your needs -- and doesn't forget to use a speedy language and library! 
 
-NOTE: A bypass solution is NOT required while building iOS applications. Apple's [Webview](https://developer.apple.com/documentation/webkit/webview) acts in a similar fashion to a browser, thus bypassing Cloudflare, however, it does not implement CORS security policies -- making it perfect for direct calls to the BitClout API. 
+- A bypass solution such as the ones above is NOT required while building iOS applications. Apple's [Webview](https://developer.apple.com/documentation/webkit/webview) acts in a similar fashion to a browser, thus bypassing Cloudflare, while also lacking enforcement of CORS security policies- making it perfect for direct calls to the BitClout API. 
 
 ## Notes
 - All of the documentation in this repository is for the BitClout.com Node API, however, upon nodes becoming open source, this documentation will also apply to all private and public nodes which run an instance of such API.
