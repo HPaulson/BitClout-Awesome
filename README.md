@@ -13,3 +13,4 @@ This repo consists of tools and documentation of the BitClout.com node API which
 - Listed below are all contributors who have assisted in the creation of this repo's contents:
   - Hunter Paulson <HPaulson@SeismicCore.com>
   - Joe Rawlings <http://www.joerawlings.com>
+  - Sakib Rasul <rhythms06@gmail.com>
