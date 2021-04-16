@@ -17,3 +17,5 @@ Below is a list of projects and tools which integrate with BitClout using its de
   - JobClout is the 1st BitClout job board.
 - [CloutFeed](https://clouttechnologies.com/)
   - CloutFeed is the first decentralized social network mobile App based on BitClout.
+- [Moonbounce](https://getmoonbounce.com)
+  - Reward your biggest supporters with exclusive content, benefits, and experiences.
