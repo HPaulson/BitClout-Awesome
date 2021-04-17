@@ -30,7 +30,7 @@
 - [`GET api/v1`](https://github.com/HPaulson/BitClout/blob/master/docs/explorer/current-block.md)
 - `GET get-exchange-rate`
 - `POST api/v1/block`
-- [`POST api/v1/transaction-info`](https://github.com/HPaulson/BitClout/blob/master/docs/explorer/transactions.md")
+- [`POST api/v1/transaction-info`](https://github.com/HPaulson/BitClout/blob/master/docs/explorer/transactions.md)
 - `POST block-public-key`
 - `POST burn-bitcoin`
 - `POST buy-or-sell-creator-coin-WVAzTWpGOFFnMlBvWXZhTFA4NjNSZGNW`
