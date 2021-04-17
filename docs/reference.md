@@ -27,9 +27,10 @@
 - These docs are put into a folder by task. For example, the Explorer folder includes documentation for both the `get-transactions` and `block` endpoint, as both are used to get chain data on the explorer.
 
 ## Discovered Endpoints
+- <a href="https://github.com/HPaulson/BitClout/blob/master/docs/explorer/current-block.md">`GET api/v1`</a>
 - `GET get-exchange-rate`
 - `POST api/v1/block`
-- `POST api/v1/transaction-info`
+- <a href="https://github.com/HPaulson/BitClout/blob/master/docs/explorer/transactions.md">`POST api/v1/transaction-info`</a>
 - `POST block-public-key`
 - `POST burn-bitcoin`
 - `POST buy-or-sell-creator-coin-WVAzTWpGOFFnMlBvWXZhTFA4NjNSZGNW`
