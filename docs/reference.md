@@ -21,3 +21,29 @@
 - These docs are created by engineers in the community, for engineers in the community. If you build something cool with their help, please add them to the projects tab!
 - Not all nodes run the full API. For example, the Blue node does not run the Explorer API endpoints. We recommend using the main BitClout.com API for full coverage.
 - These docs are put into a folder by task. For example, the Explorer folder includes documentation for both the `get-transactions` and `block` endpoint, as both are used to get chain data on the explorer.
+
+## Discovered Endpoints
+- `GET get-exchange-rate`
+- `POST api/v1/block`
+- `POST api/v1/transaction-info`
+- `POST block-public-key`
+- `POST burn-bitcoin`
+- `POST buy-or-sell-creator-coin-WVAzTWpGOFFnMlBvWXZhTFA4NjNSZGNW`
+- `POST buy-or-sell-creator-coin-preview-WVAzTWpGOFFnMlBvWXZhTFA4NjNSZGNW`
+- `POST create-follow-txn-stateless`
+- `POST create-like-stateless`
+- `POST create-user-stateless`
+- `POST get-app-state`
+- `POST get-follows-stateless`
+- `POST get-messages-stateless`
+- `POST get-notifications`
+- `POST get-posts-stateless`
+- `POST get-profiles`
+- `POST get-single-post`
+- `POST get-txn`
+- `POST get-users-stateless`
+- `POST logout`
+- `POST send-bitclout`
+- `POST send-message-stateless`
+- `POST submit-post`
+- `POST update-user-global-metadata`
