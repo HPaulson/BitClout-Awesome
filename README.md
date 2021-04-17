@@ -1,11 +1,12 @@
+# HPaulson/BitClout
 This repo consists of tools and documentation of the BitClout.com node API which was reverse-engineered prior to the release of such source code. The documentation here can also be found on the [Wiki](https://github.com/HPaulson/BitClout/wiki) page for an easier viewing experience.
 
 ## Tree of Contents
 [BitClout](https://github.com/HPaulson/BitClout)
 - [Docs](/docs)
   - [Explorer](/docs/explorer)
-    - [Transactions](/docs/explorer/transactions.md)  
     - [Current Block](/docs/explorer/current-block.md)
+    - [Transactions](/docs/explorer/transactions.md)  
   - [Reference](/docs/reference.md)
 - [Projects List](/projects.md)
 - [README.md](/README.md)
