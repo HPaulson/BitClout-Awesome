@@ -51,4 +51,5 @@
 - `POST send-bitclout`
 - `POST send-message-stateless`
 - `POST submit-post`
+- `POST submit-transaction`
 - `POST update-user-global-metadata`
