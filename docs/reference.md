@@ -47,6 +47,7 @@
 - `POST get-single-post`
 - `POST get-txn`
 - `POST get-users-stateless`
+- `POST get-single-profile`
 - `POST get-hodlers-for-public-key`
 - `POST logout`
 - `POST send-bitclout`
