@@ -27,3 +27,4 @@ BitClout
   - [Hunter Paulson](https://github.com/HPaulson)
   - [Joe Rawlings](https://github.com/jrawlings)
   - [Sakib Rasul](https://github.com/rhythms06)
+  - [Suketu Patel](https://github.com/Suketu-Patel)
