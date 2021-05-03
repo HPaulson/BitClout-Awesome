@@ -4,18 +4,22 @@ This repo consists of tools and documentation of the BitClout.com node API which
 ## Tree of Contents
 [BitClout](https://github.com/HPaulson/BitClout)
 - [Docs](/docs)
-  - [Explorer](/docs/explorer)
-    - [Current Block](/docs/explorer/current-block.md)
-    - [Transactions](/docs/explorer/transactions.md)  
+  - [Endpoints](/docs/endpoints)
+    - [Explorer](/docs/explorer)
+      - [Current Block](/docs/endpoints/explorer/current-block.md)
+      - [Transaction Info](/docs/endpoints/explorer/transaction-info.md)  
+    - [Exchange Rate](/docs/endpoints/get-exchange-rate.md)
   - [Reference](/docs/reference.md)
 - [Projects List](/projects.md)
 - [README.md](/README.md)
 ```
 BitClout
 ├── docs
-│   ├── explorer
-│   │   ├── current-block.md
-│   │   └── transactions.md
+│   ├── endpoints
+│   │   ├── explorer
+│   │   │   ├── current-block.md
+│   │   │   └── transaction-info.md
+│   │   └── get-exchange-rate.md
 │   └── reference.md
 ├── projects.md
 └── README.md
