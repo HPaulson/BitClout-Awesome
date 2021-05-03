@@ -1,19 +1,26 @@
-## Getting Transactions on the chain
+## Get the current block
 
-#### Request
+### Request
 \* = Requiered
 | Property  | Value                               |
 |-----------|-------------------------------------|
-| *Endpoint       | POST `https://api.bitclout.com/api/v1/transaction-info`       |
+| *Endpoint       | GET `https://api.bitclout.com/api/v1/`       |
 | *Headers    | `content-type: application/json`            |
-| *Body       | `{"PublicKeyBase58Check"?:"<PUBLIC_KEY>", "IsMempool"?: Boolean}`
-> If you'd like to search only for mempool transactions, include `IsMempool`. Requesting `IsMempool: true` with no `PublicKeyBase58Check` will return the entire mempool.
 
-#### Response 
+### Response 
 <pre>
 {
   "Error": String,
-  <a href="#transaction">"Transactions"</a>: [
+    <a href="#header">"Header"</a>: {
+      "BlockHashHex": String,
+      "Version": Integer,
+      "PrevBlockHashHex": String,
+      "TransactionMerkleRootHex": String,
+      "TstampSecs": Integer,
+      "Height": Integer,
+      "Nonce": Integer
+  },
+  "<a href="transaction">Transactions</a>": [
     {
       "TransactionIDBase58Check": String,
       "RawTransactionHex": String,
@@ -90,13 +97,23 @@
         }
       }
     }
-  ],
-  "BalanceNanos": Integer
+  ]
 }
 </pre>
 ---
 
-## Types
+### Types
+
+## Header
+| Type  | Description                               |
+|-----------|-------------------------------------|
+| "BlockHashHex"       | Hash of the current block in hex       |
+| "Version"    | Version of the current block |
+| "PrevBlockHashHex"       | Hash of the previous block in hex |
+| "TransactionMerkleRootHex"       | < UNKNOWN > |
+| "TstampSecs"       | UNIX timestamp of the block  |
+| "Height"       | The current block's height |
+| "Nonce" | < UNKNOWN > |
 
 ## TxnType
 | Type  | Description                               |
