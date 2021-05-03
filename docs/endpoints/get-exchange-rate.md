@@ -1,12 +1,12 @@
 ## Getting Transactions on the chain
 
-#### Request
+### Request
 \* = Requiered
 | Property  | Value                               |
 |-----------|-------------------------------------|
 | *Endpoint       | GET `https://api.bitclout.com/get-exchange-rate`       |
 
-<h4><a href="#Payload">Response</a></h4>
+### Response
 <pre>
 {
     "SatoshisPerBitCloutExchangeRate": Integer,
@@ -14,11 +14,7 @@
     "USDCentsPerBitcoinExchangeRate": Integer
 }
 </pre>
----
 
-## Types
-
-## Payload
 | Type  | Description                               |
 |-----------|-------------------------------------|
 | "SatoshisPerBitCloutExchangeRate"       | The exchange rate of Satoshis per 1 BitClout       |
