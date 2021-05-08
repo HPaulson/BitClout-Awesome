@@ -50,6 +50,7 @@
 - `POST get-user-global-metadata`
 - `POST get-users-stateless`
 - `POST miner-control`
+- `POST send-diamonds`
 - `POST send-bitclout`
 - `POST send-message-stateless`
 - `POST send-phone-number-verification-text`
